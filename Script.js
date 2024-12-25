@@ -75,6 +75,7 @@ function populateCourses() {
                     <option value="7">B+</option>
                     <option value="6">B</option>
                     <option value="5">C</option>
+                    <option value="0">NA</option>
                 </select>
             </td>
             <td class="gpa-cell">--</td>

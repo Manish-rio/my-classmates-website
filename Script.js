@@ -52,6 +52,14 @@ const courses = [
   { id: 50, code: "19P104", title: "PROFESSIONAL ETHICS", semester: "", credits: 2, grade: "B+" },
   { id: 51, code: "19P110", title: "ENGINEERING GRAPHICS", semester: "", credits: 2, grade: "A" },
   { id: 52, code: "19P211", title: "C PROGRAMMING LABORATORY", semester: "", credits: 2, grade: "C" }
+  { id: 53, code: '19P601', title: 'QUANTITATIVE METHODS IN MANAGEMENT', semester: 8, credits: 3 },
+  { id: 54, code: '19P602', title: 'JIGS AND FIXTURES', semester: 8, credits: 3 },
+  { id: 55, code: '19P603', title: 'DESIGN FOR MANUFACTURE AND ASSEMBLY', semester: 8, credits: 3 },
+  { id: 56, code: '19P604', title: 'AUTOMATION AND ROBOTICS', semester: 8, credits: 3 },
+  { id: 57, code: '19P020', title: 'SIX SIGMA', semester: 8, credits: 3 },
+  { id: 58, code: '19P611', title: 'CAD, CAM AND CAE LABORATORY', semester: 8, credits: 2 },
+  { id: 59, code: '19P711', title: 'INNOVATION PRACTICES', semester: 8, credits: 2 },
+  { id: 60, code: '19O004', title: 'SUSTAINABLE DEVELOPMENT GOALS FOR MANUFACTURING INDUSTRIES', semester: 8, credits: 3 }
 ];
 
 // Populate the table with pre-filled data

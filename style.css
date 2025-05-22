@@ -1,81 +1,78 @@
-/* Reset some default styles */
-* {
-  box-sizing: border-box;
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
   margin: 0;
   padding: 0;
 }
 
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f4f7fa;
+h1 {
+  text-align: center;
   padding: 20px;
-  color: #333;
+  background-color: #2a2e85;
+  color: white;
+  margin-bottom: 30px;
 }
 
 .container {
   max-width: 900px;
   margin: auto;
-  background: #fff;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: 30px;
-  color: #0077cc;
+  padding: 0 20px;
 }
 
 .semester {
-  border: 2px solid #e0e0e0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 40px;
   padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  background-color: #fafafa;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
 .semester h2 {
-  margin-bottom: 15px;
-  color: #444;
+  margin-top: 0;
+  color: #2a2e85;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
 }
 
-.course {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-  gap: 10px;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
 }
 
-.course input {
-  flex: 1;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
 }
 
-button {
-  padding: 10px 20px;
-  margin-top: 15px;
-  background-color: #0077cc;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background 0.3s ease;
+th {
+  background-color: #e8ecfa;
+  color: #333;
 }
 
-button:hover {
-  background-color: #005fa3;
+td select {
+  padding: 6px 10px;
+  font-size: 14px;
 }
 
-#result {
-  margin-top: 30px;
-  padding: 20px;
-  background-color: #eaf6ff;
-  border: 1px solid #cce5ff;
-  border-radius: 6px;
-  font-size: 18px;
+.grade-point {
   font-weight: bold;
-  color: #004085;
+  color: #2a2e85;
+}
+
+.results {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+  text-align: right;
+}
+
+.results span {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: bold;
 }

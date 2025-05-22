@@ -1,1 +1,7 @@
+git clone https://github.com/Manish-rio/my-classmates-website.git
+cd my-classmates-website
+git checkout -b delete-style
+git rm style.css
+git commit -m "Deleted style.css"
+git push origin delete-style
 
